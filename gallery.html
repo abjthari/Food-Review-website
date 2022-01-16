@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+</head>
+<body background="images/Gwallpaper.jpg" style="background-repeat: no-repeat;background-size:250%;" >
+
+    <style>
+/* design */
+.design{
+    padding: 4.5rem 0;
+}
+.title{
+    text-align: center;
+    padding: 1rem 0;
+}
+.title h2{
+    font-family: var(--Playfair);
+    font-size: 2.4rem;
+    color: #fff;
+}
+.title p{
+    text-transform: uppercase;
+    padding: 0.6rem 0;
+    
+}
+.design-content{
+    margin: 2rem 0;
+}
+.design-item{
+    cursor: pointer;
+    margin: 1.5rem 0;
+}
+.design-img{
+    position: relative;
+    overflow: hidden;
+}
+.design-img::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.design-img img{
+    transition:  all 0.5s ease;
+}
+.design-item:hover img{
+    transform: scale(1.2);
+}
+.design-img span:first-of-type{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    left: 10px;
+    background: var(--exDark);
+    color: #fff;
+    padding: 0.25rem 1rem;
+}
+.design-img span:last-of-type{
+    position: absolute;
+    z-index: 1;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.design-title{
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #fff;
+}
+.design-title a{
+    color: var(--dark);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: var(--Playfair);
+}
+
+    </style> 
+    <!-- design -->
+    <section class = "design" id = "design">
+        <div class = "container">
+          <div class = "title">
+            <h2>Recent food trends and flatlay</h2>
+          </div>
+  
+          <div class = "design-content">
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/g2.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>Healthy tasteful bread spread</span>
+              </div>
+              <div class = "design-title">
+                
+                
+              </div>
+            </div>
+            <div class = "design-title">
+              <div class = "design-item">
+                <div class = "design-img">
+                  <img src = "images/g8.jpg" alt = "">
+                  <span><i class = "far fa-heart"></i></span>
+                  <span>Khichdi</span>
+                </div> 
+            </div>
+          </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/3.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>Indian Healthy Thali</span>
+              </div>
+              <div class = "design-title">
+                
+                
+            </div>
+            
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/g1.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>Keto Burrito</span>
+              </div>
+              <div class = "design-title">
+               
+                
+              </div>
+            </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/g3.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>Wholesome Sushi</span>
+              </div>
+              <div class = "design-title">
+                
+              </div>
+            </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/g4.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>Healthy Desserts</span>
+              </div>
+              <div class = "design-title">  
+              </div>
+            </div>
+            <!-- end of item -->
+            <!-- item -->
+            <div class = "design-item">
+              <div class = "design-img">
+                <img src = "images/g5.jpg" alt = "">
+                <span><i class = "far fa-heart"></i></span>
+                <span>Oatmeal resin cookie</span>
+              </div>
+            </div>
+            <!-- end of item -->
+            
+          </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of design -->
+
+</body>
+</html>
